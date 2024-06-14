@@ -26,6 +26,11 @@ nav {
       &:hover {
         opacity: 0.5;
       }
+
+      > svg {
+        display: grid;
+        place-items: center;
+      }
       > p {
         position: absolute;
         background-color: $tertiary;
