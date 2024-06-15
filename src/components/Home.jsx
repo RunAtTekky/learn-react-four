@@ -1,19 +1,23 @@
 import React from "react";
 
-import img1 from "../assets/MacBookAir.webp";
+import img1 from "../assets/MacBook.png";
 import img2 from "../assets/NikeMercurial.png";
+import img3 from "../assets/MacBookAir.webp";
+import img4 from "../assets/EuroFootball.avif";
 import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";
 
 const Home = () => {
   const productList = [
     {
-      name: "MacBook Air",
-      price: 1499,
+      name: "MacBook",
+      price: 1899,
       imgSrc: img1,
       id: 3,
     },
     { name: "Nike Mercurial", price: 399, imgSrc: img2, id: 4 },
+    { name: "MacBook Air", price: 1399, imgSrc: img3, id: 5 },
+    { name: "Euro Football", price: 199, imgSrc: img4, id: 6 },
   ];
 
   const dispatch = useDispatch();
